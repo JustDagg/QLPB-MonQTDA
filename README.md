@@ -15,3 +15,5 @@ B3: Run as -> Spring Boot App
 B1: Dùng Visual Studio Code 
 B2: Mở File DepartmentManagement từ VSC 
 B3: vào file program.html rồi Open with LiveServer
+
+© Đặng Minh Tuấn
