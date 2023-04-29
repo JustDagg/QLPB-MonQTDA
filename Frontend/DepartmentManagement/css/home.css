@@ -1,0 +1,187 @@
+.main .home-content {
+    text-align: center;
+    padding-top: 100px;
+    color: red;
+}
+
+/* comment */
+.comment-box{
+	float: right;
+	padding: 900px;
+	padding: 30px;
+	color: black;
+	background-color: #428bca;
+	justify-content: right;
+	margin-right: 50px;
+	margin-bottom: 100px;
+}
+
+
+#comment-box, #post {
+    border: none;
+    border-radius: 15px;
+}
+
+#post {
+	background-color: #fff;
+	color: black;
+	width: 130px;
+	height: 40px;
+	margin: 9px;
+	float: right;
+	font-weight: 700;
+}
+#post:hover{
+    background-color: wheat;
+}
+
+/* banner */
+  * {
+	margin: 0;
+	padding: 0;
+}
+ 
+   
+  #container {
+   width:  auto 100%;
+   height: 690px;
+   overflow: hidden;
+   margin: 50px auto;
+   background: white;
+   background-color: wheat;
+   background-position: center;
+   
+  }
+
+  /*header*/
+  header {
+   width: 800px;
+   margin: 40px auto;
+  }
+   
+  header h1 {
+   text-align: center;
+   font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
+   
+  }
+   
+  header p {
+   font: 100 15px/1.5 Helvetica, Verdana, sans-serif;
+   text-align: justify;
+  }
+   
+  /*photobanner*/
+  .photobanner {
+   width: 100%;
+   background-color: #428bca;
+  }
+
+  .first {
+	-webkit-animation: bannermove 45s linear infinite;
+	   -moz-animation: bannermove 45s linear infinite;
+		-ms-animation: bannermove 45s linear infinite;
+		 -o-animation: bannermove 45s linear infinite;
+			animation: bannermove 45s linear infinite;
+   }
+	
+   @keyframes bannermove {
+	0% {
+	   margin-left: 0px;
+	}
+	100% {
+	   margin-left: -2125px;
+	}
+	
+   }
+	
+   @-moz-keyframes bannermove {
+	0% {
+	  margin-left: 0px;
+	}
+	100% {
+	  margin-left: -2125px;
+	}
+	
+   }
+	
+   @-webkit-keyframes bannermove {
+	0% {
+	  margin-left: 0px;
+	}
+	100% {
+	  margin-left: -2125px;
+	}
+	
+   }
+	
+   @-ms-keyframes bannermove {
+	0% {
+	  margin-left: 0px;
+	}
+	100% {
+	  margin-left: -2125px;
+	}
+	
+   }
+	
+   @-o-keyframes bannermove{
+	0% {
+	  margin-left: 0px;
+	}
+	100% {
+	  margin-left: -2125px;
+	}
+	
+   }
+
+   .photobanner {
+	height: 233px;
+	width: 9550px;
+	margin-bottom: 50px;
+	background-size: auto 100%;
+   }
+	
+   .photobanner img {
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+   }
+	
+   .photobanner img:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor: pointer;
+	
+	-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+   }
+
+/* phandoitac */
+.galeri {
+	margin-top: 100px;
+	display: flex;
+	height: 30rem;
+	gap: 1rem;
+	background-color: whitesmoke;
+}
+
+.galeri > div{
+	flex: 1;
+	border-radius: 1rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 55%;
+	transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.galeri > div:hover {
+	flex: 5;
+}
+
+

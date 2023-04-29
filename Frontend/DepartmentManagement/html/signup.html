@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+
+     <!-- import JQuery -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- import bootstrap -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- import css -->
+    <link rel="stylesheet" href="../css/signup.css">
+
+    <!-- import ảnh của trang -->
+    <link rel="shortcut icon" type="image/png" href="/asset/logocty.png"/>
+
+</head>
+<body>
+    <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="../asset/logocty.png" alt="Avatar" class="avatar">
+    </div>
+    <br>
+      
+    <div class="container">
+     
+        <span style="float: left;">Nếu bạn đã có tài khoản <button id="btn_signin"><a style="text-decoration: none; color: aliceblue; font-weight: bold;" href="/html/login.html" style=" color: rgb(127, 163, 255);"> Hãy quay lại trang đăng nhập tại đây</a></button></span>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+            
+        <div style="margin: 0px; padding: 0px; text-decoration: none; ">
+            <label for="userNName"><b style="font-size: 18px; font-variant: small-caps;">Username:</b></label>
+            <input type="text" placeholder="Enter Username" name="userNName" id="userNName" required>
+            <p style="color: red;" id="nameErrorMessagee"></p>
+                    
+            <label for="firstName"><b style="font-size: 18px; font-variant: small-caps;">Firstname:</b></label>
+            <input type="text" placeholder="Enter Firstname" name="firstNName" id="firstNName" required>
+            <p style="color: red;" id="firstnameErrorMessagee"></p>
+
+            <label for="lastName"><b style="font-size: 18px; font-variant: small-caps;">Lastname:</b></label>
+            <input type="text" placeholder="Enter Lastname" name="lastNName" id="lastNName" required>
+            <p style="color: red;" id="lastnameErrorMessagee"></p>
+
+            <label for="emaill"><b style="font-size: 18px; font-variant: small-caps;">Email:</b></label>
+            <input type="text" placeholder="Enter Email" name="emaill" id="emaill" required>
+            <p style="color: red;" id="emailErrorMessagee"></p>
+
+            <label for="passw"><b style="font-size: 18px; font-variant: small-caps;">Password:</b></label>
+            <input type="password" placeholder="Enter Password" name="passw" id="passw" required>
+            <p style="color: red;" id="passwordErrorMessagee"></p>
+
+            <label for="role"><b style="font-size: 18px; font-variant: small-caps;">Role:</b></label>
+            <input type="text" placeholder="Enter Role" name="rolLe" id="rolLe" required>
+            <p style="color: red;" id="roleErrorMessagee"></p>
+            
+            <br>
+            
+            <button type="button" onclick="signup()" style="font-size: 20px; width: 480px; margin-left: 340px; font-weight: bold;">
+                Sign Up
+            </button>
+            
+            <br>
+            <br>
+
+            <br>
+            <br>
+
+            <div style="text-align: center;">
+                Contact <a href="#">@HOLA COCO COMPANY</a>
+            </div>
+            </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+</body>
+
+<!-- import javascript -->
+
+
+<script src="../js/storage.js"></script>
+<script src="../js/signup.js"></script>
+</html>
+
+
