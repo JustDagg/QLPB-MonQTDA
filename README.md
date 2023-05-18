@@ -1,5 +1,5 @@
 # QLPB-MonQTDA
-mysql, springtoolsuite4, vsc.
+mysql, springtoolsuite4, vsc..
 
 Hướng dẫn chạy project:
 - File Database: 
